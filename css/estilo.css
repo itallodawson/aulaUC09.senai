@@ -1,0 +1,138 @@
+/* -------------------------------- */
+/* Cabeçalho */
+/* -------------------------------- */
+header img {
+    height: 70px;
+    width: 70px;
+}
+
+/* -------------------------------- */
+/* Conteúdo principal */
+/* -------------------------------- */
+main {
+    min-height: 500px;
+}
+
+/* -------------------------------- */
+/* Banner */
+/* -------------------------------- */
+#section-banners img {
+    height: 500px;
+}
+
+/* -------------------------------- */
+/* Produtos Vendidos */
+/* -------------------------------- */
+#section-vendidos h2 {
+    font-weight: bold;
+    padding: 20px;
+}
+
+#section-vendidos img {
+    min-height: 300px;
+    border-radius: 10px;
+}
+
+#section-vendidos .card {
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+#section-vendidos .preco {
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* -------------------------------- */
+/* Rodapé */
+/* -------------------------------- */
+footer {
+    text-align: center;
+}
+
+footer p {
+    font-weight: bold;
+    padding: 10px;
+}
+
+/* -------------------------------- */
+/* Botão Voltar Topo */
+/* -------------------------------- */
+#voltar-topo {
+    position: fixed;
+    bottom: 5px;
+    right: 50px;
+}
+
+/* -------------------------------- */
+/* Página de Login e Cadastro */
+/* -------------------------------- */
+
+/* container geral (centraliza login e cadastro) */
+#container-login {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* centraliza verticalmente */
+    gap: 50px;
+    flex-wrap: wrap; /* ajuda em telas menores */
+    min-height: 80vh; /* ocupa quase toda a tela */
+}
+
+/* bloco de login */
+#section-login {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    width: 350px;
+}
+
+#section-login h1 {
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+#section-login input {
+    width: 100%;
+    margin-bottom: 12px;
+}
+
+/* bloco de cadastro */
+#section-cadastro {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    width: 350px;
+    text-align: center;
+}
+
+#form-cadastrar {
+    padding: 20px;
+    display: none;
+}
+
+/* botão de cadastro */
+#botao-cadastrar {
+    margin-top: 20px;
+}
+
+#botao-cadastrar button {
+    width: 100%;
+    font-weight: 600;
+}
+
+/* -------------------------------- */
+/* Toques finais visuais */
+/* -------------------------------- */
+body {
+    background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+}
+
+h1 {
+    text-align: center;
+}
+
